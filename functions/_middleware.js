@@ -1,9 +1,4 @@
-export default {
-  async fetch(request, env, ctx) {
-    let response = await fetch("https://hi3elslab.pages.dev");
-    let html = await response.text();
-
-    const popup = `
+const popup = `
       <div class="popup-anchor">
         <div class="popup">
           <h3>Scheduled Maintenance</h3>
