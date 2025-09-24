@@ -1,5 +1,4 @@
-const popup = `
-      <div class="popup-anchor">
+ <div class="popup-anchor">
         <div class="popup">
           <h3>Scheduled Maintenance</h3>
           <ul class="items">
