@@ -1,4 +1,3 @@
-
 export default {
   async fetch(request, env, ctx) {
     let response = await fetch("https://hi3elslab.pages.dev");
